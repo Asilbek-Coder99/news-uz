@@ -14,7 +14,7 @@ import { useAuth } from '@/hooks/useAuth.js'
 
 // Zod validatsiya sxemasi
 const loginSchema = z.object({
-  email:    z.string().email("To'g'ri email kiriting"),
+  email: z.string().email("To'g'ri email kiriting"),
   password: z.string().min(1, 'Parol majburiy'),
 })
 
@@ -56,7 +56,7 @@ export default function LoginPage() {
                 <Newspaper className="w-5 h-5 text-white" />
               </div>
               <span className="text-2xl font-bold text-[var(--text)]"
-                    style={{ fontFamily: 'Playfair Display, serif' }}>
+                style={{ fontFamily: 'Playfair Display, serif' }}>
                 NEWS<span className="text-blue-500">.UZ</span>
               </span>
             </Link>
@@ -150,13 +150,7 @@ export default function LoginPage() {
             </p>
           </div>
 
-          {/* Demo hisob */}
-          <div className="mt-4 p-3 rounded-xl bg-[var(--bg-muted)] border border-[var(--border)]">
-            <p className="text-xs text-[var(--text-muted)] text-center">
-              <span className="font-medium">Demo admin:</span>{' '}
-              admin@news.uz / Admin123!
-            </p>
-          </div>
+
         </div>
 
         {/* Orqaga */}
