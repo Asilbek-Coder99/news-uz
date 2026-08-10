@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Admin panel indexlanmasin
+Disallow: /admin/
+Disallow: /admin/*
+
+# Auth sahifalari indexlanmasin
+Disallow: /login
+Disallow: /register
+
+# Qidiruv sahifasi indexlanmasin
+Disallow: /search?*
+
+# API indexlanmasin
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://news.uz/sitemap.xml

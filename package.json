@@ -1,0 +1,14 @@
+{
+  "name": "news-uz",
+  "version": "1.0.0",
+  "description": "NEWS.UZ — Premium Uzbek Digital News Platform",
+  "private": true,
+  "scripts": {
+    "dev:backend":  "cd backend  && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all":  "cd backend && npm install && cd ../frontend && npm install",
+    "db:seed":      "cd backend && npm run db:seed",
+    "db:studio":    "cd backend && npx prisma studio",
+    "build":        "cd frontend && npm run build"
+  }
+}
